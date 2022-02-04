@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&family=Sail&display=swap');
+
+:root {
+    --font-cursive: 'Rouge', cursive; 
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-cursive);
+    font-weight: 400;
+    font-size: 1.3215rem;
+    line-height: 1.6;
+    background-image: url('./img/bg-img.png');
+    background-size: 100%;
+    background-repeat: repeat;;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-title {
+    /* text-align: center; */
+    /* background-color: violet; */
+    padding: 10rem 0;
+    margin: auto;
+    max-width: 50rem;
+    font-size: 3vw;
+    font-family: var(--font-cursive);
+}
+
+section {
+    margin: 0 0 3rem 0;
+}
+
+.quarter-section {
+    padding: 2rem 0;
+    background-color: purple;
+    color: plum;
+}
+
+img {
+    width: 28rem;
+    height: 32rem;
+}
+
+h3 {
+    padding: 1rem 0;
+    text-align: center;
+    margin: auto;
+    /* background-color: green; */
+}
+
+.week-title {
+    color: purple;
+    padding: 2rem 0;
+    font-family: var(--font-cursive);
+}
+
+h4 {
+    margin: 0 2rem;
+}
+
+.align-center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+
+    nav div, h4 {
+        font-size: 3.5vw;
+        margin: 0 0 0 1vw;
+    }
+
+    .main-title {
+        padding: 10vw 0;
+    }
+
+    .quarter-section {
+        padding: 2vw 0;
+    }
+
+    img {
+        width: 75vw;
+        height: 90vw;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 5vw;;
+    }
+
+    h3 {
+        font-size: 4vw;
+    }
+
+    .week-title {
+        padding: 5vw 0;
+    }
+
+
+
+}
+
